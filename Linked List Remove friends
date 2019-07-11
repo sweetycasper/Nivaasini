@@ -1,0 +1,66 @@
+#include<stdio.h>
+{
+struct node
+{
+int data;
+struct node* temp;
+}
+struct node* head;
+int main()
+{
+int x;
+struct node *temp =(struct node*)malloc(size of(struct node*);
+printf("Enter the number");
+scanf("%d",&x);
+temp.data = x;
+temp.next = null;
+head = temp;
+input(int *temp)
+temp = head;
+delete(int *temp)
+print(int *head)
+input(int *temp)
+{
+int n,x;
+printf("Enter the number ");
+scanf("%d",&x);
+int b = 1;
+while(b<n)
+{
+struct node* temp1 =(struct node*)malloc(size of(struct node*);
+printf("Enter the number ");
+scanf("%d",&x);
+temp.data = x;
+temp.next = temp1;
+temp1.next = NULL;
+temp = temp1;
+b++;
+}
+delete(int *temp)
+{
+int a;
+printf("Enter the number");
+scanf("%d",&a);
+int temp1;
+temp.next = temp1;
+int c = 0;
+while(c>a)
+{
+if(temp.data<temp1.data)
+{
+delete temp;
+temp = temp1;
+temp1 = temp.next;
+c++;
+}
+head = temp;
+}
+print(int *temp)
+{
+while(temp.next! == NULL)
+{
+print("%d",temp.data)
+temp = temp.next;
+}
+}
+}
