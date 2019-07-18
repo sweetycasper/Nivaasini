@@ -1,0 +1,66 @@
+#include <stdio.h>
+
+int main()
+{
+	int a[7] = {1,7,2,2,4,4};
+	
+	
+	for(int i = 0; i<5; i++)
+	{
+	    int b;
+	    b = i;
+	    int n = 0;
+	    int m = 6;
+	    int j;
+	    j= i+1;
+	   while(n < m)
+	    {
+	       
+	        
+             if(a[b]<a[j])
+	        {
+	            int temp;
+	            temp = a[j];
+	            a[j] = a[b];
+	            a[b] = temp;
+	            ++j;
+	        }
+	        else
+	        {
+	            ++j;
+	        }
+	        ++n;
+	        --m;
+	         
+	    }
+	    printf("%d\n",a[b]);
+	   
+	}
+
+	
+	    printf("%d",a[5]);
+
+
+stack s;
+for(int k = 4;k>0;k--)
+{
+    int l=5;
+    while(l>k)
+    {
+        if(a[k] > a[l])
+        {
+            a[l] = 46372826;
+            pop();
+            push (a[k]);
+            a[k] = 658365;
+        }
+        l--;
+    }
+        
+ }
+ int sum;
+ sum = pop() + pop();
+ printf("%d",sum);
+    
+    
+    }
