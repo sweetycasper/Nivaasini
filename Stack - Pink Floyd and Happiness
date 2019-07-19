@@ -1,0 +1,45 @@
+#include<stdio.h>
+{
+int a[5] = {1,2,3,4,5};
+int b[5];
+int c = 857;
+int n =0;
+int m;
+while(n < 5)
+{
+if(a[n] == [n+1]
+{
+b[n] = a[n];
+}
+else if(a[n] > (n+1))
+{
+c = a[n];
+}
+else if(a[n] >c)
+{
+b[n-1] = c;
+b[n] = a[n];
+}
+else
+{
+b[n] = a[n];
+}
+n++;
+}
+
+for(int j =0;j<5;j++)
+{
+if(a[j] < a[j+1])
+{
+m++;
+}
+}
+if(m == 5)
+{
+printf("happy");
+}
+else
+{
+printf("sad");
+}
+}
