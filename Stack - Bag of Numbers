@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main()
+{
+	int max = 6;
+	int a[max] = {15,21,39,390,392,380};
+	int b[max];
+	int top = -1;
+	for(int i = 5; i>=0; i--)
+	{
+	    int n;
+	    n = a[i];
+	    push(n,i);
+	}
+	print()
+	push(int m, int i)
+	{
+	    b[i] = m;
+	}
+	print()
+	{
+	    while(top<max)
+	    {
+	        top = top + 1;
+	        printf("%d", b[top]);
+	    }
+	}
+	 
+	
+}
