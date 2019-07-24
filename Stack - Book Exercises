@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int main()
+{
+	stack s;
+	int j, d;
+	char b[6][20] = {"English","Maths","Geography"," ","Graphics"," "};
+	if(stack != NULL)
+	{
+	    out();
+	    print();
+	}
+	out()
+	{
+	    int a[];
+	    int i = 0;
+	    a[i] = s.pop();
+	    if(a[i] != -1)
+	    {
+	        j++;
+	        i++;
+	        out();
+	    }
+	}
+	print()
+	{
+	    if(j =! 1)
+	    {
+	        for(int k = 0; k<j;k++)
+	        {
+	            if(a[k]  < a[k+1])
+	            d = k;
+	        }
+	        else
+	        {
+	            d = j;
+	        }
+	    }
+	        printf("%d",j);
+	        printf("%s",b[j]);
+	        
+	 }
+}
+	    
+	
