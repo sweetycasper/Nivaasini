@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+	stack s;
+	int a,b,c;
+	a = s.pop();
+	b = s.pop();
+	c = s.pop();
+	if(a>b && a >c)
+	{
+	    s.push(a);
+	}
+	else if(b>a && b>c)
+	{
+	    s.push(b);
+	}
+	else
+	{
+	    push(c);
+	}
+}
