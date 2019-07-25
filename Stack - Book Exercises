@@ -7,6 +7,9 @@ int main()
 	char b[6][20] = {"English","Maths","Geography"," ","Graphics"," "};
 	if(stack != NULL)
 	{
+	    a[] = "NULL";
+	    j = 0;
+	    d = 0;
 	    out();
 	    print();
 	}
@@ -36,8 +39,8 @@ int main()
 	            d = j;
 	        }
 	    }
-	        printf("%d",j);
-	        printf("%s",b[j]);
+	        printf("%d",d);
+	        printf("%s",b[d]);
 	        
 	 }
 }
