@@ -1,0 +1,67 @@
+#include <stdio.h>
+
+int main()
+{
+	int d[2][3];
+	char c[] = {'e','e','e','d','d'};
+	int b[2][3] ={{1,1},{2,1},{1,2}};
+	int r - -1;
+	int f = -1;
+	int a,g = 0;
+	int h = 0;
+	if(char[h] == 'e')
+	{
+	   enque();
+	   h++;
+	}
+	else
+	{
+	    deque();
+	}
+	enque()
+	{
+	    if isempty()
+	    {
+	        f = 0;
+	        r = 0;
+	        d[f][r] = b[f][r];
+	    }
+	    else if(b[a][g] < b[a+1][g])
+	    {
+	        r = r+1;
+	        d[a+1][g] = b[a+1][g];
+	    }
+	    else
+	    {
+	        traverse();
+	    }
+	}
+	
+	traverse()
+	{
+	    int a = 0;
+	    int e = 0;
+	    while(b[a][e] < b[a+1][b])
+	    {
+	        a = a+1;
+	    }
+	    int temp[2][1];
+	    temp[][] = b[a][e];
+	    b[a][e] = b[a+1][e];
+	    b[a+1][e] = temp[][];
+	    r = r+1;
+	}
+	
+ deque()
+ {
+     if(f<r)
+     {
+         f = f+1;
+     }
+     else
+     {
+         return;
+     }
+ }
+	
+}
