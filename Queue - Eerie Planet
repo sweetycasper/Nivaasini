@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main()
+{
+	int T = 10;
+	int c = 1;
+    int Q = 5;
+    int H = 50;
+    int t1 = 2;
+    int t2 = 6;
+    for(int i = 1; i < Q; i++)
+    {
+        int h,t3;
+        printf("Enter the height of person");
+        scanf("%d",&h);
+        printf("Enter the timimg");
+        scanf("%d",&t3);
+        Time( h,t3);
+    }
+    Time (int h, int t3)
+    {
+        if(t3<t1 !! t3>t2)
+        {
+            printf("Allowed");
+        }
+        else
+        {
+            height(int h);
+        }
+    }
+    height(int* h)
+    {
+        if(h<H)
+        {
+            printf("Not Allowed");
+        }
+        else
+        {
+            printf("Allowed");
+        }
+    }
+}
